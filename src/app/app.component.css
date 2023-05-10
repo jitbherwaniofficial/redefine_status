@@ -1,0 +1,46 @@
+#intro{
+    padding-top: 5rem;
+}
+h1{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: pink;
+}
+
+h2{
+    letter-spacing: 1px;
+    padding-top: 1rem;
+}
+
+.slide{
+    width: 65%;
+    margin: 0 auto;
+} 
+
+.quotes{
+    border-left: 5px solid lightgreen;
+    padding-left: 1rem;
+}
+
+.bold-crimson{
+    border-left: 5px solid crimson;
+    padding-left: 1rem;
+}
+
+
+p{
+    font-size: 1.2rem;
+    padding: 1rem 0;
+    line-height: 2rem;
+}
+
+i{
+    font-size: 1.3rem;
+    color: green;
+}
+
+b{
+    font-size: 1.3rem;
+    color: crimson;
+}
