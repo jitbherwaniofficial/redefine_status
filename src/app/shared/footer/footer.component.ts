@@ -13,6 +13,6 @@ export class FooterComponent implements OnInit {
   }
   darkandlightmode(){
     this.clicked = !this.clicked;
-    document.body.classList.toggle('dark-theme');
+    document.body.classList.toggle('light-theme');
   }
 }

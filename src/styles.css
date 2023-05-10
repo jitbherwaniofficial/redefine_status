@@ -5,13 +5,14 @@
 }
 
 body{
-    color: #000000;
-    --bkg-color: #fff;
-}
-
-body.dark-theme {
     color: #eee;
     --bkg-color: #2f3437;
+}
+
+body.light-theme {
+    
+    color: #000000;
+    --bkg-color: #fff;
 }
 
 body{
