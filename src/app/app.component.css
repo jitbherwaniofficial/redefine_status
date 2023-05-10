@@ -1,46 +1,120 @@
-#intro{
-    padding-top: 5rem;
+#intro {
+  padding-top: 5rem;
 }
-h1{
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: 800;
-    color: pink;
-}
-
-h2{
-    letter-spacing: 1px;
-    padding-top: 1rem;
+h1 {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: pink;
 }
 
-.slide{
-    width: 65%;
-    margin: 0 auto;
-} 
-
-.quotes{
-    border-left: 5px solid lightgreen;
-    padding-left: 1rem;
+h2 {
+  letter-spacing: 1px;
+  padding-top: 1rem;
 }
 
-.bold-crimson{
-    border-left: 5px solid crimson;
-    padding-left: 1rem;
+.slide {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.quotes {
+  border-left: 5px solid lightgreen;
+  padding-left: 1rem;
+}
+
+.bold-crimson {
+  border-left: 5px solid crimson;
+  padding-left: 1rem;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  line-height: 2rem;
+}
+
+i {
+  font-size: 1.3rem;
+  color: green;
+}
+
+b {
+  font-size: 1.3rem;
+  color: crimson;
+}
+
+.parallax-0 {
+  background-image: url("https://images.unsplash.com/photo-1629863746033-bf485f0f7c8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.parallax-1 {
+  background-image: url("https://images.unsplash.com/photo-1625426689073-9ab74fd3a8bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.parallax-2 {
+  background-image: url("https://images.unsplash.com/photo-1622987182830-3546866bebf2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.parallax-3 {
+  background-image: url("https://images.unsplash.com/photo-1579317471814-c63bc9fa7ca3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=789&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.parallax-4 {
+  background-image: url("https://images.unsplash.com/photo-1652179283738-d454f5eb7636?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.parallax-5 {
+  background-image: url("https://images.unsplash.com/photo-1608920765779-83e968fdf2c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.parallax-6 {
+  background-image: url("https://images.unsplash.com/photo-1655125774981-617718857218?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.parallax-7 {
+  background-image: url("https://images.unsplash.com/photo-1588405765997-02255aff295a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+.parallax-8 {
+  background-image: url("https://images.unsplash.com/photo-1610047500277-8fb489d8eeb7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 
-p{
-    font-size: 1.2rem;
-    padding: 1rem 0;
-    line-height: 2rem;
-}
-
-i{
-    font-size: 1.3rem;
-    color: green;
-}
-
-b{
-    font-size: 1.3rem;
-    color: crimson;
-}
