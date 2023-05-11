@@ -29,3 +29,19 @@ label{
     cursor: pointer;
     margin-right: 8rem;
 }
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+    nav {
+        justify-content: space-around;
+    }
+    strong {
+        margin-left: 0;
+    }
+
+    span {
+        padding: 0;
+    }
+    label{
+        margin-right: 0;
+    }
+}
